@@ -40,11 +40,20 @@ if (matchMedia('(hover: hover) and (pointer: fine)').matches && !matchMedia('(pr
 
   const paralax = document.getElementById('img-eu');
 
-  window.addEventListener('scroll', ()=>{
-     let rolar_pra_baixo = scrollY;
-     let deslocamento = rolar_pra_baixo * 2;
+if (paralax) {
+  window.addEventListener('scroll', () => {
+    let rolar_pra_baixo = window.scrollY;
+    
 
-     let opacidade = 1 - (rolar_pra_baixo / 200);
-    paralax.style.transform = `translateY(${deslocamento}px)`;
+    let deslocamento = rolar_pra_baixo * 0.3;
+    
+  
+    let deslocamento_limitado = Math.min(deslocamento, 150);
+
+
+    let opacidade = 1 - (rolar_pra_baixo / 400);
+
+   
+    paralax.style.transform = `translateY(${deslocamento_limitado}px)`;
     paralax.style.opacity = Math.max(opacidade, 0);
   });
