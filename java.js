@@ -56,4 +56,5 @@ if (paralax) {
    
     paralax.style.transform = `translateY(${deslocamento_limitado}px)`;
     paralax.style.opacity = Math.max(opacidade, 0);
-  });
+  }); 
+}
