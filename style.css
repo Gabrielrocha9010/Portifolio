@@ -745,4 +745,18 @@ footer{
 #mouse-luz{opacity:1}
 
 
-  
+  #mensagem-alerta {
+    color: #ffff;
+    margin-top: 10px;
+    font-weight: bold;
+    min-height: 20px; 
+}
+
+.mensagem-erro {
+    color: #ffff;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    min-height: 20px; 
+}
+
