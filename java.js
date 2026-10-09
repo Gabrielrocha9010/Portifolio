@@ -64,20 +64,7 @@ function mostrarMensagem(idMensagem) {
     }
 }
 
-function copiarEmail(event) {
-    event.preventDefault(); 
-    navigator.clipboard.writeText("gabrielnetwork90@gmail.com");
-    const aviso = document.getElementById("aviso-copiado");
-    if (aviso) {
-        aviso.innerText = "E-mail copiado!";       
-        setTimeout(() => {
-            aviso.innerText = "";
-        }, 3000);
-    }
-  setTimeout(() => {
-        window.open("mailto:gabrielnetwork90@gmail.com", "_blank");
-    }, 500);
-}
+
 
 
 
