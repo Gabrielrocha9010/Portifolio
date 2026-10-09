@@ -75,7 +75,7 @@ function copiarEmail(event) {
         }, 3000);
     }
   setTimeout(() => {
-        window.open("https:gabrielnetwork90@gmail.com", "_blank");
+        window.open("mailto:gabrielnetwork90@gmail.com", "_blank");
     }, 500);
 }
 
