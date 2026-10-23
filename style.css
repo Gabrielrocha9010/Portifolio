@@ -7,7 +7,7 @@
 :root {
     --cor-fundo: #0B0914;
     --cor-text1: #ffff;
-    --img-decorection: url(../img/sol.png);
+    --img-decorection: url(img/sol.png);
     --radial-gradient: radial-gradient(circle, #335fff17, transparent 70%);
 }
 
@@ -18,7 +18,7 @@ html {
 .dark {
     --cor-fundo: #ffff;
     --cor-text1: #000000;
-    --img-decorection: url(../img/lua.png);
+    --img-decorection: url(img/lua.png);
     --radial-gradient: radial-gradient(circle, #335fff56, transparent 70%);
 }
 
